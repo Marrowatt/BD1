@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DIAGRAMA ID="1" TIPO="tpConceitual" UniversalUnicID="2423-FB-278B-8-58AE-9E-E7">
+<InfoDiagrama ID="1">
+<Versao Valor="3.2.0"/>
+<Autores/>
+<Observacao/>
+<Width Valor="4096"/>
+<Height Valor="4096"/>
+<Alinhamento_v Valor="50"/>
+<Alinhamento_h Valor="60"/>
+<Zoom Valor="100"/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Localizacao Left="0" Top="0"/>
+<Realce Valor="false"/>
+</InfoDiagrama>
+<Texto ID="2">
+<Bounds Height="467" Left="1" Top="0" Width="625"/>
+<DisablePainted Valor="false"/>
+<Texto>Sistema para locadora de veículos: O objetivo deste estudo de caso é construir um
+modelo ER para o BD de uma empresa de locação de veículos. A empresa em questão aluga
+automóveis, camionetas de passageiros e camionetas de carga. Ela atende a dois mercados,
+o das pessoas físicas e o das pessoas jurídicas. Para acelerar o atendimento, é importante
+conhecer os dados de clientes que já tenham usado a locadora no passado. Para cada
+pessoa física é necessário conhecer seu nome, sexo, data de nascimento, endereço e CIC. Já
+para as pessoas jurídicas é necessário conhecer seu nome, CGC, inscrição estadual e
+endereço. Os clientes são identificados por um código interno a locadora.
+A empresa tem uma grande rede de filiais, espalhada pelo sul do país. Em um momento no
+tempo, um veículo encontra-se sob responsabilidade de uma filial. Entretanto, como veículos
+podem ser alugados para viagens em um sentido somente, eles podem mudar de filial. Um
+veículo é identificado pela sua placa. Além disso, é necessário conhecer o número dos
+chassis, o número do motor, o tipo de veículo e a cor de cada veículo. O sistema em
+computador deverá registrar: a) os veículos disponíveis em determinada filial na data
+corrente, b) as reservas para veículos em uma filial, com previsão de que veículos estarão 
+disponíveis em uma data futura, c) os veículos presentemente alugados pela filial, o ponto
+de entrega (caso seja diferente do de locação) e data de entrega prevista. Os veículos são
+classificados por uma tabela de tipos. Por exemplo, P3 corresponde a automóveis pequenos,
+de quatro portas e com ar-condicionado (Uno, Palio etc.) e G4 a grandes automóveis de luxo
+(Ômega ou similar). As reservas não são feitas para uma marca ou modelo de veículo, mas
+para um tipo de veículo. Para tipos de automóveis, os clientes desejam saber o tamanho,
+classificado em pequeno, médio e grande, o número de passageiros, o número de portas,
+bem como se possui os seguintes acessórios: ar-condicionado, rádio, toca-fitas, CD, direção
+hidráulica e câmbio automático. Para tipos de camionetas de passageiros, as informações
+são as mesmas que para automóveis. Já para tipos de camionetas de carga, as informações
+acima não são relevantes. Neste caso, os clientes desejam saber a capacidade de carga da
+camioneta. Para cada tipo de veículo, há um determinado número de horas necessário para
+limpeza e revisão de entrega, entre uma reserva e outra. Além disso, o sistema deve
+programar as revisões dos veículos, impedindo que sejam reservados quando há revisões
+pendentes. Esta programação é feita com base em um conjunto de parâmetros que são a
+quilometragem atual do veículo, a quilometragem média diária de um veículo do tipo, bem
+como em uma tabela de revisões do tipo de veículo. A seguradora que segura os veículos,
+exige que, para cada veículo alugado, seja mantida a identificação do motorista, o número
+de sua habilitação e data de vencimento dela. A habilitação não pode vencer dentro do
+prazo da locação.
+</Texto>
+<Observacao/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Titulo>Observação_1</Titulo>
+<PaintTitulo Valor="false"/>
+<Alinhamento Valor="1"/>
+<CentrarVertical Valor="false"/>
+<Tipo Valor="1"/>
+<BackColor Valor="255,255,255,255"/>
+<Sombra Valor="true"/>
+<CorSombra Valor="51,51,51,255"/>
+<Gradiente Valor="false"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GradientePinteDetalhe Valor="true"/>
+<GradienteCorDetalhe Valor="102,102,102,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="80"/>
+<Autosize Valor="false"/>
+<MovimentacaoManual Valor="true"/>
+</Texto>
+</DIAGRAMA>

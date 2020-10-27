@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DIAGRAMA ID="1" TIPO="tpConceitual" UniversalUnicID="CE43-F0-4AD7-CD-B830-D5-22">
+<InfoDiagrama ID="1">
+<Versao Valor="3.2.0"/>
+<Autores/>
+<Observacao/>
+<Width Valor="4096"/>
+<Height Valor="4096"/>
+<Alinhamento_v Valor="50"/>
+<Alinhamento_h Valor="60"/>
+<Zoom Valor="100"/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Localizacao Left="0" Top="0"/>
+<Realce Valor="false"/>
+</InfoDiagrama>
+<Texto ID="3">
+<Bounds Height="133" Left="0" Top="0" Width="568"/>
+<DisablePainted Valor="false"/>
+<Texto>Imagine uma empresa que possui vários sistemas o que torna confuso a criação de
+usuários e permissões. A empresa quer modelar um sistema de autenticação e permissão
+central. A empresa contém diversos usuários. Cada sistema está composto por diferentes
+módulos. Cada usuário pode acessar um ou mais sistemas. A permissão para cada usuário
+pode ser concedida para todo o sistema ou apenas para alguns módulos. Para facilitar a
+configuração das permissões deseja-se que perfis de usuários sejam criados. Cada perfil
+pode estar associado a mais de um sistema e cada sistema pode estar associado a mais de
+um perfil. O usuário obrigatoriamente para poder autenticar e obter as permissões deve
+estar associado a apenas um perfil de usuário. Crie o DER que modela o caso citado acima.</Texto>
+<Observacao/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Titulo>Observação_1</Titulo>
+<PaintTitulo Valor="false"/>
+<Alinhamento Valor="0"/>
+<CentrarVertical Valor="false"/>
+<Tipo Valor="1"/>
+<BackColor Valor="255,255,255,255"/>
+<Sombra Valor="true"/>
+<CorSombra Valor="51,51,51,255"/>
+<Gradiente Valor="false"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GradientePinteDetalhe Valor="true"/>
+<GradienteCorDetalhe Valor="102,102,102,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="80"/>
+<Autosize Valor="false"/>
+<MovimentacaoManual Valor="true"/>
+</Texto>
+</DIAGRAMA>

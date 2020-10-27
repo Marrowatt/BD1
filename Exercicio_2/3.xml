@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DIAGRAMA ID="1" TIPO="tpConceitual" UniversalUnicID="3059-CB-AA1A-C8-B1BF-1D-19">
+<InfoDiagrama ID="1">
+<Versao Valor="3.2.0"/>
+<Autores/>
+<Observacao/>
+<Width Valor="4096"/>
+<Height Valor="4096"/>
+<Alinhamento_v Valor="50"/>
+<Alinhamento_h Valor="60"/>
+<Zoom Valor="100"/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Localizacao Left="0" Top="0"/>
+<Realce Valor="false"/>
+</InfoDiagrama>
+<Texto ID="2">
+<Bounds Height="297" Left="0" Top="0" Width="619"/>
+<DisablePainted Valor="false"/>
+<Texto>Sistema de reserva de passagens aéreas. O objetivo do trabalho é projetar um sistema
+de reservas para uma companhia de aviação. O sistema contará com um banco de dados
+central, que será acessado por aplicações clientes, rodando tanto dentro da própria
+companhia, quanto fora dela. A transação central do sistema é a reserva. Uma reserva é
+identificada por um código gerado pelo sistema em computador. A reserva é feita para um
+único passageiro, do qual se conhece apenas o nome. A reserva compreende um conjunto
+de trechos de voos, que acontecerão em determinada data/hora. Para cada trecho, a reserva
+é feita em uma classe (econômica, executiva etc.). Um voo é identificado por um código e
+possui uma origem e um destino. Por exemplo, o voo 595 sai de Porto Alegre com destino
+a São Paulo. Um voo é composto de vários trechos, correspondendo às escalas
+intermediárias do voo. Por exemplo, o voo 595 é composto de dois trechos, um de Porto
+Alegre a Londrina, o outro de Londrina a São Paulo. Cabe salientar que há cidades que são
+servidas por vários aeroportos. Por isso, é importante informar ao passageiro que faz a
+reserva, qual é o aeroporto no qual o voo passa. Às vezes os clientes, ao fazer a reserva
+querem saber qual é o tipo de aeronave que será utilizada em determinado trecho de voo.
+Alguns poucos voos, principalmente internacionais, têm troca de aeronave em determinadas
+escalas. Nem todos voos operam em todos dias de semana. Inclusive, certos voos têm
+pequenas mudanças de horário em certos dias da semana. Cada reserva possui um prazo
+de validade. Caso os bilhetes não tenham sido emitidos, até esgotar-se o prazo da reserva,
+ela é cancelada. Reservas podem ser prorrogadas. Como o check-in de todos os voos está
+informatizado, a companhia possibilita a reserva de assento para o passageiro. Reservas de
+assento podem ser feitas com até três meses de antecedência. </Texto>
+<Observacao/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Titulo>Observação_1</Titulo>
+<PaintTitulo Valor="false"/>
+<Alinhamento Valor="0"/>
+<CentrarVertical Valor="false"/>
+<Tipo Valor="1"/>
+<BackColor Valor="255,255,255,255"/>
+<Sombra Valor="true"/>
+<CorSombra Valor="51,51,51,255"/>
+<Gradiente Valor="false"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GradientePinteDetalhe Valor="true"/>
+<GradienteCorDetalhe Valor="102,102,102,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="80"/>
+<Autosize Valor="false"/>
+<MovimentacaoManual Valor="true"/>
+</Texto>
+</DIAGRAMA>

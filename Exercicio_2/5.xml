@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DIAGRAMA ID="1" TIPO="tpConceitual" UniversalUnicID="4C51-E9-6AAB-2E-391-FC-6A">
+<InfoDiagrama ID="1">
+<Versao Valor="3.2.0"/>
+<Autores/>
+<Observacao/>
+<Width Valor="4096"/>
+<Height Valor="4096"/>
+<Alinhamento_v Valor="50"/>
+<Alinhamento_h Valor="60"/>
+<Zoom Valor="100"/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Localizacao Left="24" Top="0"/>
+<Realce Valor="false"/>
+</InfoDiagrama>
+<Texto ID="2">
+<Bounds Height="719" Left="4" Top="9" Width="551"/>
+<DisablePainted Valor="false"/>
+<Texto>Sistema de almoxarifado: O almoxarifado pertence a um grupo de empresas do ramo
+industrial e serve para estocar peças destinadas às várias empresas do grupo. Cada empresa
+do grupo é considerada um cliente do almoxarifado. O almoxarifado está organizado em
+corredores. Cada corredor possui vários receptáculos para peças (um receptáculo é uma
+bacia retangular de material plástico). Os receptáculos são todos do mesmo tamanho. Os
+corredores são numerados e os receptáculos são numerados por corredor. Por exemplo, o
+receptáculo 2-10 é o décimo receptáculo do segundo corredor.
+Em uma das extremidades do almoxarifado encontra-se o setor de recepção de peças. Lá
+chegam as peças entregues pelos fornecedores. Quando ocorre a chegada de peças, a
+primeira atividade é registrar na ordem de compra a chegada das peças. Uma cópia de toda
+ordem de compra é sempre enviada ao setor de recepção. Assim, neste setor sempre se
+sabe quais as peças que estão por ser entregues. As ordens de compra são geradas no
+setor de compras e apenas repassadas ao almoxarifado.
+Uma entrega corresponde sempre a uma ordem de compra. Entretanto, são admitidas
+entregas parciais, isto é, entregas que não completam a ordem de compra. Em uma entrega
+podem ser entregues diferentes quantidades de diferentes peças. As peças recebidas são
+colocadas sobre um estrado. Este estrado é então levado para o almoxarifado por uma
+empilhadeira e as peças são distribuídas nos receptáculos. Um estrado pode conter
+diferentes peças. Para cada peça, procura-se um receptáculo que já contenha unidades da
+peça em questão e que ainda tenha espaço para a carga chegada. Caso não haja um
+receptáculo nestas condições, procura-se um receptáculo vazio.
+A saída do almoxarifado se dá em relação aos pedidos dos clientes. Um pedido pode solicitar
+vários tipos de peças. Todas peças que atendem um pedido são juntadas, embaladas e
+colocadas em uma rampa de carga (numerada) onde encosta o caminhão do cliente. Não há
+pedidos pendentes, isto é, os clientes sempre pedem quantidades de peças que há em
+estoque. O objetivo do sistema é o de aumentar o lucro do almoxarifado, ajudando sua
+equipe a guardar e recuperar itens mais rapidamente e a conhecer as quantidades estocadas.
+O almoxarifado é de grande porte e constantemente há várias empilhadeiras circulando por
+ele tanto para estocar entregas quando para buscar peças referentes a um pedido. Outros
+detalhes do sistema são fornecidos a seguir. O almoxarifado somente atende empresas. É
+necessário manter um cadastro de clientes com CGC, nome, endereço e telefone de contato.
+Para cada peça é necessário conhecer seu UPC (“Universal Product Code”), descrição e
+número interno à organização. Para cada entrega, o setor de recepção monta uma lista de
+distribuição, que instrui o operador sobre que peças, em quantidade ele deve estocar em
+que receptáculos. Para cada pedido, o setor de saída monta uma lista de busca, que instrui
+o operador sobre que peças, em quantidade ele deve buscar em que receptáculos. Em
+termos de processos, é necessário que o sistema processe o seguinte:
+1. Dê as ordens de distribuição de peças chegadas para cada chegada.
+2. Dê as ordens para busca para cada pedido.
+3. Mantenha a quantidade estocada de cada item e de cada receptáculo.
+4. Informe que peças em que quantidade devem ser estocadas ou buscadas em que
+receptáculos.
+Em termos específicos de transações devem ser consideradas:
+1. Transações de chegada
+a. Registro da chegada de produtos
+b. Instruções para estocagem (em que estrado, em que receptáculos)
+c. Confirmação da estocagem em um receptáculo
+2. Transações de saída de produtos
+a. Registro de um pedido
+b. Geração da lista de busca
+c. Confirmação da busca
+3. Consolidação de receptáculos (juntar as peças de mesmo tipo de dois receptáculos
+diferentes)
+Em sua primeira versão o sistema ainda não fará controle de empilhadeiras ou estrados
+disponíveis e em uso.</Texto>
+<Observacao/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Titulo>Observação_1</Titulo>
+<PaintTitulo Valor="false"/>
+<Alinhamento Valor="1"/>
+<CentrarVertical Valor="false"/>
+<Tipo Valor="0"/>
+<BackColor Valor="255,255,255,255"/>
+<Sombra Valor="true"/>
+<CorSombra Valor="51,51,51,255"/>
+<Gradiente Valor="false"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GradientePinteDetalhe Valor="true"/>
+<GradienteCorDetalhe Valor="102,102,102,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="80"/>
+<Autosize Valor="false"/>
+<MovimentacaoManual Valor="false"/>
+</Texto>
+</DIAGRAMA>

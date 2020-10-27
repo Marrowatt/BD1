@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DIAGRAMA ID="1" TIPO="tpConceitual" UniversalUnicID="E5B2-6-C94-58-D543-74-29">
+<InfoDiagrama ID="1">
+<Versao Valor="3.2.0"/>
+<Autores/>
+<Observacao/>
+<Width Valor="4096"/>
+<Height Valor="4096"/>
+<Alinhamento_v Valor="50"/>
+<Alinhamento_h Valor="60"/>
+<Zoom Valor="100"/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Localizacao Left="0" Top="0"/>
+<Realce Valor="false"/>
+</InfoDiagrama>
+<Texto ID="2">
+<Bounds Height="189" Left="0" Top="0" Width="546"/>
+<DisablePainted Valor="false"/>
+<Texto>Locadora de vídeos. Uma pequena locadora de vídeos possui ao redor de 2.000 fitas de
+vídeo, cujo empréstimo deve ser controlado. Cada fita possui um número. Para cada filme,
+é necessário saber seu título e sua categoria (comédia, drama, aventura, ...). Cada filme
+recebe um identificador próprio. Para cada fita é controlado que filme ela contém. Para cada
+filme há pelo menos uma fita, e cada fita contém somente um filme. Alguns poucos filmes
+necessitam duas fitas. Os clientes podem desejar encontrar os filmes estrelados pelo seu
+ator predileto. Por isso, é necessário manter a informação dos atores que estrelam em cada
+filme. Nem todo filme possui estrelas.
+Para cada ator os clientes às vezes desejam saber o nome real, bem como a data de
+nascimento. A locadora possui muitos clientes cadastrados. Somente clientes cadastrados
+podem alugar fitas. Para cada cliente é necessário saber seu nome e sobrenome, telefone e
+endereço. Além disso, cada cliente recebe um número de associado. Finalmente, desejamos 
+saber que fitas cada cliente tem emprestadas. Um cliente pode ter várias fitas em um instante
+no tempo. São mantidos registros históricos de aluguéis.
+</Texto>
+<Observacao/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Titulo>Observação_1</Titulo>
+<PaintTitulo Valor="false"/>
+<Alinhamento Valor="0"/>
+<CentrarVertical Valor="false"/>
+<Tipo Valor="1"/>
+<BackColor Valor="255,255,255,255"/>
+<Sombra Valor="true"/>
+<CorSombra Valor="51,51,51,255"/>
+<Gradiente Valor="false"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GradientePinteDetalhe Valor="true"/>
+<GradienteCorDetalhe Valor="102,102,102,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="80"/>
+<Autosize Valor="false"/>
+<MovimentacaoManual Valor="true"/>
+</Texto>
+</DIAGRAMA>
