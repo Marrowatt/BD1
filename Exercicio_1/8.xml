@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<DIAGRAMA ID="1" TIPO="tpConceitual" UniversalUnicID="8265-37-7ABA-6E-5517-67-6A">
+<DIAGRAMA ID="1" TIPO="tpConceitual" UniversalUnicID="A5AF-96-B5FD-C2-9148-C-61">
 <InfoDiagrama ID="1">
 <Versao Valor="3.2.0"/>
 <Autores/>
@@ -72,7 +72,7 @@
 <Largura Valor="1"/>
 <Ligacoes PontaA="236" PontaB="217"/>
 <Pontos>
-<Ponto Left="189" Top="178"/>
+<Ponto Left="190" Top="178"/>
 <Ponto Left="176" Top="178"/>
 <Ponto Left="176" Top="217"/>
 </Pontos>
@@ -107,11 +107,8 @@
 <Largura Valor="1"/>
 <Ligacoes PontaA="238" PontaB="217"/>
 <Pontos>
-<Ponto Left="218" Top="304"/>
+<Ponto Left="219" Top="304"/>
 <Ponto Left="209" Top="304"/>
-<Ponto Left="209" Top="286"/>
-<Ponto Left="209" Top="286"/>
-<Ponto Left="209" Top="286"/>
 <Ponto Left="209" Top="276"/>
 </Pontos>
 </Ligacao>
@@ -146,7 +143,7 @@
 <Ligacoes PontaA="-1" PontaB="241"/>
 <Pontos>
 <Ponto Left="157" Top="250"/>
-<Ponto Left="76" Top="250"/>
+<Ponto Left="77" Top="250"/>
 </Pontos>
 </Ligacao>
 <Ligacao ID="245">
@@ -203,7 +200,7 @@
 <Ponto Left="695" Top="278"/>
 </Pontos>
 <Cardinalidade ID="249">
-<Bounds Height="15" Left="657" Top="297" Width="35"/>
+<Bounds Height="15" Left="662" Top="288" Width="35"/>
 <DisablePainted Valor="false"/>
 <Texto>Cardinalidade_2</Texto>
 <Observacao/>
@@ -212,7 +209,7 @@
 <Ancorado Valor="false"/>
 <TamanhoAutmatico Valor="true"/>
 <Card Valor="2"/>
-<MovimentacaoManual Valor="true"/>
+<MovimentacaoManual Valor="false"/>
 <Papel Valor=""/>
 </Cardinalidade>
 </Ligacao>
@@ -332,11 +329,8 @@
 <Largura Valor="1"/>
 <Ligacoes PontaA="265" PontaB="253"/>
 <Pontos>
-<Ponto Left="218" Top="583"/>
+<Ponto Left="219" Top="583"/>
 <Ponto Left="209" Top="583"/>
-<Ponto Left="209" Top="565"/>
-<Ponto Left="209" Top="565"/>
-<Ponto Left="209" Top="565"/>
 <Ponto Left="209" Top="555"/>
 </Pontos>
 </Ligacao>
@@ -370,7 +364,7 @@
 <Largura Valor="1"/>
 <Ligacoes PontaA="268" PontaB="253"/>
 <Pontos>
-<Ponto Left="218" Top="619"/>
+<Ponto Left="219" Top="619"/>
 <Ponto Left="171" Top="619"/>
 <Ponto Left="171" Top="555"/>
 </Pontos>
@@ -405,7 +399,7 @@
 <Largura Valor="1"/>
 <Ligacoes PontaA="271" PontaB="253"/>
 <Pontos>
-<Ponto Left="210" Top="648"/>
+<Ponto Left="211" Top="648"/>
 <Ponto Left="140" Top="648"/>
 <Ponto Left="140" Top="487"/>
 <Ponto Left="192" Top="487"/>
@@ -442,10 +436,8 @@
 <Largura Valor="1"/>
 <Ligacoes PontaA="286" PontaB="230"/>
 <Pontos>
-<Ponto Left="423" Top="193"/>
+<Ponto Left="424" Top="193"/>
 <Ponto Left="414" Top="193"/>
-<Ponto Left="414" Top="210"/>
-<Ponto Left="414" Top="210"/>
 <Ponto Left="414" Top="230"/>
 </Pontos>
 </Ligacao>
@@ -479,11 +471,8 @@
 <Largura Valor="1"/>
 <Ligacoes PontaA="289" PontaB="230"/>
 <Pontos>
-<Ponto Left="473" Top="299"/>
+<Ponto Left="474" Top="299"/>
 <Ponto Left="464" Top="299"/>
-<Ponto Left="464" Top="281"/>
-<Ponto Left="464" Top="281"/>
-<Ponto Left="464" Top="281"/>
 <Ponto Left="464" Top="263"/>
 </Pontos>
 </Ligacao>
@@ -517,7 +506,7 @@
 <Largura Valor="1"/>
 <Ligacoes PontaA="298" PontaB="253"/>
 <Pontos>
-<Ponto Left="329" Top="531"/>
+<Ponto Left="330" Top="531"/>
 <Ponto Left="300" Top="531"/>
 <Ponto Left="300" Top="531"/>
 <Ponto Left="270" Top="531"/>
@@ -553,7 +542,7 @@
 <Largura Valor="1"/>
 <Ligacoes PontaA="302" PontaB="219"/>
 <Pontos>
-<Ponto Left="833" Top="251"/>
+<Ponto Left="834" Top="251"/>
 <Ponto Left="804" Top="251"/>
 <Ponto Left="804" Top="251"/>
 <Ponto Left="774" Top="251"/>
@@ -591,7 +580,7 @@
 <Pontos>
 <Ponto Left="758" Top="278"/>
 <Ponto Left="758" Top="287"/>
-<Ponto Left="828" Top="287"/>
+<Ponto Left="829" Top="287"/>
 </Pontos>
 </Ligacao>
 <Atributo ID="309">
@@ -624,12 +613,39 @@
 <Largura Valor="1"/>
 <Ligacoes PontaA="309" PontaB="219"/>
 <Pontos>
-<Ponto Left="742" Top="306"/>
+<Ponto Left="743" Top="306"/>
 <Ponto Left="733" Top="306"/>
-<Ponto Left="733" Top="288"/>
-<Ponto Left="733" Top="288"/>
-<Ponto Left="733" Top="288"/>
 <Ponto Left="733" Top="278"/>
 </Pontos>
 </Ligacao>
+<Texto ID="311">
+<Bounds Height="131" Left="501" Top="470" Width="336"/>
+<DisablePainted Valor="false"/>
+<Texto>A empresa de DEMO é organizada em departamentos. Cada departamento tem um nome,
+um número e um empregado que gerencia o departamento. Deve-se saber a data em que
+um empregado iniciou como gerente de um departamento e a data que deixou o cargo. Um
+departamento pode ter diversas localizações as quais estão localizadas em diferentes
+cidades, estados e países.
+</Texto>
+<Observacao/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Titulo>Observação_1</Titulo>
+<PaintTitulo Valor="false"/>
+<Alinhamento Valor="0"/>
+<CentrarVertical Valor="false"/>
+<Tipo Valor="1"/>
+<BackColor Valor="255,255,255,255"/>
+<Sombra Valor="true"/>
+<CorSombra Valor="51,51,51,255"/>
+<Gradiente Valor="false"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GradientePinteDetalhe Valor="true"/>
+<GradienteCorDetalhe Valor="102,102,102,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="80"/>
+<Autosize Valor="false"/>
+<MovimentacaoManual Valor="true"/>
+</Texto>
 </DIAGRAMA>
