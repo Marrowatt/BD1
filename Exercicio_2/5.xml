@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<DIAGRAMA ID="1" TIPO="tpConceitual" UniversalUnicID="4C51-E9-6AAB-2E-391-FC-6A">
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<DIAGRAMA ID="1" TIPO="tpConceitual" UniversalUnicID="9382-88-9DD-6C-1C1B-8C-6">
 <InfoDiagrama ID="1">
 <Versao Valor="3.2.0"/>
 <Autores/>
@@ -14,7 +14,7 @@
 <Realce Valor="false"/>
 </InfoDiagrama>
 <Texto ID="2">
-<Bounds Height="719" Left="4" Top="9" Width="551"/>
+<Bounds Height="719" Left="0" Top="0" Width="551"/>
 <DisablePainted Valor="false"/>
 <Texto>Sistema de almoxarifado: O almoxarifado pertence a um grupo de empresas do ramo
 industrial e serve para estocar peças destinadas às várias empresas do grupo. Cada empresa
@@ -47,7 +47,7 @@ O almoxarifado é de grande porte e constantemente há várias empilhadeiras circul
 ele tanto para estocar entregas quando para buscar peças referentes a um pedido. Outros
 detalhes do sistema são fornecidos a seguir. O almoxarifado somente atende empresas. É
 necessário manter um cadastro de clientes com CGC, nome, endereço e telefone de contato.
-Para cada peça é necessário conhecer seu UPC (“Universal Product Code”), descrição e
+Para cada peça é necessário conhecer seu UPC (&#147;Universal Product Code&#148;), descrição e
 número interno à organização. Para cada entrega, o setor de recepção monta uma lista de
 distribuição, que instrui o operador sobre que peças, em quantidade ele deve estocar em
 que receptáculos. Para cada pedido, o setor de saída monta uma lista de busca, que instrui
@@ -90,6 +90,245 @@ disponíveis e em uso.</Texto>
 <GDirecao Valor="0"/>
 <Alfa Valor="80"/>
 <Autosize Valor="false"/>
-<MovimentacaoManual Valor="false"/>
+<MovimentacaoManual Valor="true"/>
 </Texto>
+<Entidade ID="4">
+<Bounds Height="58" Left="590" Top="94" Width="120"/>
+<DisablePainted Valor="false"/>
+<Texto>corredor</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<AtributosOcultos Valor=""/>
+</Entidade>
+<Atributo ID="5">
+<Bounds Height="14" Left="614" Top="41" Width="32"/>
+<DisablePainted Valor="false"/>
+<Texto>id</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<DirecaoFromInspector Valor="0"/>
+<Autosize Valor="true"/>
+<Identificador Valor="true"/>
+<Opcional Valor="false"/>
+<Multivalorado Valor="false"/>
+<CardMinFromString Valor="1"/>
+<CardMaxFromString Valor="n"/>
+<TipoAtributo Valor=""/>
+</Atributo>
+<Ligacao ID="6">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="false"/>
+<TemSetaPontaB Valor="false"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="5" PontaB="4"/>
+<Pontos>
+<Ponto Left="610" Top="45"/>
+<Ponto Left="601" Top="45"/>
+<Ponto Left="601" Top="71"/>
+<Ponto Left="601" Top="71"/>
+<Ponto Left="601" Top="90"/>
+</Pontos>
+</Ligacao>
+<Atributo ID="7">
+<Bounds Height="14" Left="628" Top="60" Width="43"/>
+<DisablePainted Valor="false"/>
+<Texto>cod</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<DirecaoFromInspector Valor="0"/>
+<Autosize Valor="true"/>
+<Identificador Valor="false"/>
+<Opcional Valor="false"/>
+<Multivalorado Valor="false"/>
+<CardMinFromString Valor="1"/>
+<CardMaxFromString Valor="n"/>
+<TipoAtributo Valor=""/>
+</Atributo>
+<Ligacao ID="8">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="false"/>
+<TemSetaPontaB Valor="false"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="7" PontaB="4"/>
+<Pontos>
+<Ponto Left="624" Top="64"/>
+<Ponto Left="615" Top="64"/>
+<Ponto Left="615" Top="81"/>
+<Ponto Left="615" Top="81"/>
+<Ponto Left="615" Top="90"/>
+</Pontos>
+</Ligacao>
+<Entidade ID="10">
+<Bounds Height="58" Left="942" Top="92" Width="120"/>
+<DisablePainted Valor="false"/>
+<Texto>Receptáculo</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<AtributosOcultos Valor=""/>
+</Entidade>
+<Atributo ID="12">
+<Bounds Height="14" Left="983" Top="36" Width="32"/>
+<DisablePainted Valor="false"/>
+<Texto>id</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<DirecaoFromInspector Valor="0"/>
+<Autosize Valor="true"/>
+<Identificador Valor="false"/>
+<Opcional Valor="false"/>
+<Multivalorado Valor="false"/>
+<CardMinFromString Valor="1"/>
+<CardMaxFromString Valor="n"/>
+<TipoAtributo Valor=""/>
+</Atributo>
+<Ligacao ID="13">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="false"/>
+<TemSetaPontaB Valor="false"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="12" PontaB="10"/>
+<Pontos>
+<Ponto Left="979" Top="40"/>
+<Ponto Left="953" Top="40"/>
+<Ponto Left="953" Top="88"/>
+</Pontos>
+</Ligacao>
+<Atributo ID="14">
+<Bounds Height="14" Left="996" Top="58" Width="54"/>
+<DisablePainted Valor="false"/>
+<Texto>nome</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<DirecaoFromInspector Valor="0"/>
+<Autosize Valor="true"/>
+<Identificador Valor="false"/>
+<Opcional Valor="false"/>
+<Multivalorado Valor="false"/>
+<CardMinFromString Valor="1"/>
+<CardMaxFromString Valor="n"/>
+<TipoAtributo Valor=""/>
+</Atributo>
+<Ligacao ID="15">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="false"/>
+<TemSetaPontaB Valor="false"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="14" PontaB="10"/>
+<Pontos>
+<Ponto Left="992" Top="62"/>
+<Ponto Left="967" Top="62"/>
+<Ponto Left="967" Top="88"/>
+</Pontos>
+</Ligacao>
+<Ligacao ID="19">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="false"/>
+<TemSetaPontaB Valor="false"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="20" PontaB="4"/>
+<Pontos>
+<Ponto Left="748" Top="119"/>
+<Ponto Left="727" Top="119"/>
+<Ponto Left="727" Top="159"/>
+<Ponto Left="679" Top="159"/>
+<Ponto Left="679" Top="149"/>
+</Pontos>
+<Cardinalidade ID="21">
+<Bounds Height="15" Left="646" Top="159" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_1</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+</Cardinalidade>
+</Ligacao>
+<Relacionamento ID="20">
+<Bounds Height="50" Left="751" Top="97" Width="150"/>
+<DisablePainted Valor="false"/>
+<Texto/>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+</Relacionamento>
+<Ligacao ID="22">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="false"/>
+<TemSetaPontaB Valor="false"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="10" PontaB="20"/>
+<Pontos>
+<Ponto Left="968" Top="147"/>
+<Ponto Left="968" Top="157"/>
+<Ponto Left="918" Top="157"/>
+<Ponto Left="918" Top="119"/>
+<Ponto Left="898" Top="119"/>
+</Pontos>
+<Cardinalidade ID="23">
+<Bounds Height="15" Left="935" Top="157" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_2</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="3"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+</Cardinalidade>
+</Ligacao>
 </DIAGRAMA>
